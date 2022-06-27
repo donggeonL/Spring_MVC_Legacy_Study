@@ -1,9 +1,8 @@
 #### Spring_MVC_Legacy_Study
 
 ## Mybatis
-> #### CDATA
-
 >  #### SQL MAPPER ( XML 형식 ) 기본형식
+>  ##### CDATA DI 받아야함
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
