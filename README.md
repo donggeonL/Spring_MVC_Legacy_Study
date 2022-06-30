@@ -31,3 +31,9 @@
 </mapper>
 
 ```
+>  #### MyBatis에서 parameterType 과 resultType
+>  ##### resultType : select 로 선택된 데이터를 담는 그릇
+>  ##### parameterType : 자바에서 어떤 타입으로 설정 할 것인지를 인지시켜주는 타입
+```
+<select id="crprtnCardList" parameterType="hashmap" resultType="com.erp.dev.crprtncard.vo.ErpCrprtnCardVo">
+```
