@@ -29,14 +29,14 @@
 </mapper>
 
 ```
->  #### MyBatis에서 parameterType 과 resultType
+#### MyBatis에서 parameterType 과 resultType
 >  ##### resultType : select 로 선택된 데이터를 담는 그릇
 >  ##### parameterType : 자바에서 어떤 타입으로 설정 할 것인지를 인지시켜주는 타입
 ```
 <select id="crprtnCardList" parameterType="hashmap" resultType="com.erp.dev.crprtncard.vo.ErpCrprtnCardVo">
 ```
 
->  #### @Resource 와 @Autowired
+#### @Resource 와 @Autowired
 >  ##### 내가 만든 java 클래스의 DI 해주는 어노테이션
 >  ##### Resource는 java 에서 모두 사용 가능한 어노테이션 이름 -> 타입 순으로 찾아서 자동 DI 해준다.
 >  ##### Autowired는 Spring 에서 사용 가능한 어노테이션 타입 -> 이름 순으로 찾아서 자동 DI 해준다.
