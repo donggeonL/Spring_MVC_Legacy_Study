@@ -1,5 +1,3 @@
-#### Spring_MVC_Legacy_Study
-
 ## Mybatis
 >  #### SQL MAPPER ( XML 형식 ) 기본형식
 >  ##### CDATA DI 받아야함
@@ -37,3 +35,8 @@
 ```
 <select id="crprtnCardList" parameterType="hashmap" resultType="com.erp.dev.crprtncard.vo.ErpCrprtnCardVo">
 ```
+
+>  #### @Resource 와 @Autowired
+>  ##### 내가 만든 java 클래스의 DI 해주는 어노테이션
+>  ##### Resource는 java 에서 모두 사용 가능한 어노테이션 이름 -> 타입 순으로 찾아서 자동 DI 해준다.
+>  ##### Autowired는 Spring 에서 사용 가능한 어노테이션 타입 -> 이름 순으로 찾아서 자동 DI 해준다.
